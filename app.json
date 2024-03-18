@@ -1,0 +1,56 @@
+{
+  "expo": {
+    "name": "PunchLite App",
+    "slug": "PunchLite",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./src/assets/icon.png",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "image": "./src/assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#29B6F6"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "buildNumber": "1.0.0",
+      "infoPlist": {
+        "NSPhotoLibraryUsageDescription": "Allow TrayLink Pro to access your photos to set your profile picture."
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./src/assets/adaptive-icon.png",
+        "backgroundColor": "#29B6F6"
+      },
+      "permissions": [
+        "android.permission.RECORD_AUDIO"
+      ]
+    },
+    "web": {
+      "favicon": "./src/assets/favicon.png"
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/0b07adf3-77a5-4f2c-9a54-0f192c57647a"
+    },
+    "plugins": [
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "Allow TrayLink Pro to access your photos to set your profile picture."
+        }
+      ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "0b07adf3-77a5-4f2c-9a54-0f192c57647a"
+      }
+    }
+  }
+}
