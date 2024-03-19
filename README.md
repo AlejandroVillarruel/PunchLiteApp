@@ -1,2 +1,10 @@
-# Expo-TrayLink-Pro
+Steps to run the app:
+
+
+
+
+
+
+
+
  
